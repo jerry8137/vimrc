@@ -13,3 +13,6 @@ set mouse=a
 " Enable line number.
 set number
 set relativenumber
+
+" Highlight cursor line underneath the cursor horizontally.
+set cursorline
