@@ -16,3 +16,11 @@ set relativenumber
 
 " Highlight cursor line underneath the cursor horizontally.
 set cursorline
+
+" NERDTree auto refresh
+autocmd BufWritePost * NERDTreeFocus | execute 'normal R' | wincmd p
+
+set background=dark
+colorscheme peaksea
+" colorscheme dracula
+
